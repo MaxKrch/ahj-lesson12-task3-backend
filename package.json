@@ -1,0 +1,31 @@
+{
+  "name": "lesson12-task3-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever app/server.js",
+    "prestart": "npm install",
+    "watch": "forever -w app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxKrch/ahj-lesson12-task3-backend.git"
+  },
+  "author": "MaxKrch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxKrch/ahj-lesson12-task3-backend.git/issues"
+  },
+  "homepage": "https://github.com/MaxKrch/ahj-lesson12-task3-backend.git#readme",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@koa/cors": "^5.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.1",
+    "koa-slow": "^2.1.0"
+  }
+}
